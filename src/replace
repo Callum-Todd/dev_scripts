@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 3 ]; then
+    sed -i "" "s/${2}/${3}/g" $1
+else
+    echo "Incorrect number of arguments."
+    echo "Usage: replace <file> <stringToReplace> <stringReplaceWith>"
+    echo "Usage: replace '*.*' 'string' 'string' "
+    exit
+fi
