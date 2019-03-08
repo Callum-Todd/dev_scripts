@@ -15,3 +15,5 @@ cd $NAME
 touch index.html
 touch stylesheet.css
 mkdir imgs
+
+echo "~~ Complete ~~a"

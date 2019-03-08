@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "Updating ~/bin/ with latest script files stored in ~/GitHub/dev_scripts"
+cp -a ~/GitHub/dev_scripts/src/ ~/bin/
+cd ~/bin/
+chmod 777 *
