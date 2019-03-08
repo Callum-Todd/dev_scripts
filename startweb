@@ -3,7 +3,7 @@
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied"
-    echo "Creating'website' directory structure."
+    echo "Creating 'website' directory structure."
     NAME="website"
 else
     NAME=$1
