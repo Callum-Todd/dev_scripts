@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied"
+    echo "Creating'website' directory structure."
+    NAME="website"
+else
+    NAME=$1
+    echo "Creating '${NAME}' directory structure."
+fi
+
+mkdir $NAME
+cd $NAME
+touch index.html
+touch stylesheet.css
+mkdir imgs
