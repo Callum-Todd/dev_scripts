@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+if [[ $# -ne 1 ]]; then
+    echo "Invalid number of arguments"
+    echo "Usage: sh_push <file>"
+    exit
+fi
+echo "Pushing $1 to ~/bin/"
+cp -a ~/GitHub/dev_scripts/src/${1} ~/bin/
+cd ~/bin/
+chmod 777 $1
