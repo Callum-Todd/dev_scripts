@@ -1,0 +1,7 @@
+echo "  example.tar.gz  -   tar.gunzip"
+echo "To compress:  tar -zcvf archive_name.tar.gz folder_to_compress"
+echo "To extract:   tar -zxvf archive_name.tar.gz"
+echo ""
+echo "  example.tar.bz2 -   tar.bzip2"
+echo "To compress:  tar -jcvf archive_name.tar.bz2 folder_to_compress"
+echo "To extract:   tar -jxvf archive_name.tar.bz2"
