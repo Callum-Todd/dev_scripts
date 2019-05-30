@@ -12,8 +12,10 @@ fi
 
 mkdir $NAME
 cd $NAME
+echo "${NAME}/"
 touch index.html
+echo "index.html"
 touch stylesheet.css
+echo "stylesheet.css"
 mkdir imgs
-
-echo "~~ Complete ~~a"
+echo "${NAME}/imgs/"

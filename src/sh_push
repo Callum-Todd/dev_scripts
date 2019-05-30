@@ -5,6 +5,6 @@ if [[ $# -ne 1 ]]; then
     exit
 fi
 echo "Pushing $1 to ~/bin/"
-cp -a ~/GitHub/dev_scripts/src/${1} ~/bin/
+cp -a ${1} ~/bin/
 cd ~/bin/
 chmod 777 $1
